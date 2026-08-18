@@ -10,7 +10,6 @@ import { PaellaSection } from "@/components/PaellaSection";
 import { WineSection } from "@/components/WineSection";
 import { EspacioSection } from "@/components/EspacioSection";
 import { TerrazaSection } from "@/components/TerrazaSection";
-import { ReservationCTA } from "@/components/ReservationCTA";
 import { ContactSection } from "@/components/ContactSection";
 
 export default async function HomePage({
@@ -35,8 +34,8 @@ export default async function HomePage({
       {/* 08 */} <WineSection dict={dict} />
       {/* 09 */} <EspacioSection dict={dict} />
       {/* 10 */} <TerrazaSection dict={dict} lang={lang} />
-      {/* 11 */} <ReservationCTA dict={dict} />
-      {/* 12 */} <ContactSection dict={dict} />
+      {/* 11 — phone and email now live in Contact; there is no booking flow */}
+      <ContactSection dict={dict} />
     </>
   );
 }

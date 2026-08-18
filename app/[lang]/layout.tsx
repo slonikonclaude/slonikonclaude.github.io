@@ -14,7 +14,6 @@ import {
 import { IS_PREVIEW, SITE_URL, contact, photos } from "@/content/data";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { MobileReserveBar } from "@/components/MobileReserveBar";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -180,7 +179,6 @@ export default async function LangLayout({
         <Navbar lang={lang} dict={dict} />
         <main id="main">{children}</main>
         <Footer lang={lang} dict={dict} />
-        <MobileReserveBar lang={lang} dict={dict} />
       </body>
     </html>
   );
