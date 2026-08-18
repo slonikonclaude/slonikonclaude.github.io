@@ -19,15 +19,16 @@
   --color-carbon: #1a1815;
   --color-oliva: #3d4a35;
 
-  /* Accent — terracotta, used sparingly.
+  /* Accent — wine / garnet, used sparingly. Reads as the bodega rather than
+     as clay, and sits further from the "bright orange" the brief rules out.
      Three steps because one hue cannot clear 4.5:1 on every surface:
-       terracota      → on crema      (5.25:1)
-       terracota-soft → on carbon     (5.08:1)
-       terracota-pale → on oliva      (5.32:1) — the olive band is far lighter
-                                        than carbon, so it needs a paler tint. */
-  --color-terracota: #a6462b;
-  --color-terracota-soft: #c9714f;
-  --color-terracota-pale: #edb79c;
+       vino      → on crema   (8.07:1)
+       vino-soft → on carbon  (4.67:1)
+       vino-pale → on oliva   (5.40:1) — the olive band is far lighter than
+                                carbon, so it needs a distinctly paler tint. */
+  --color-vino: #7a2f3a;
+  --color-vino-soft: #b4707a;
+  --color-vino-pale: #e8b8be;
 
   /* Hairlines */
   --color-line: #d8d0c0;
@@ -131,14 +132,14 @@ h4 {
    ------------------------------------------------------------------ */
 
 :focus-visible {
-  outline: 2px solid var(--color-terracota);
+  outline: 2px solid var(--color-vino);
   outline-offset: 3px;
   border-radius: 1px;
 }
 
 .on-dark :focus-visible,
 .on-dark:focus-visible {
-  outline-color: var(--color-terracota-soft);
+  outline-color: var(--color-vino-soft);
 }
 
 /* Skip link — visible only when focused. */
