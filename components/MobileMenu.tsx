@@ -83,7 +83,7 @@ export function MobileMenu({
                     <Link
                       href={link.href}
                       onClick={onClose}
-                      className="block py-4 font-[family-name:var(--font-display)] text-3xl text-crema transition-colors duration-200 hover:text-terracota-soft"
+                      className="block py-4 font-[family-name:var(--font-display)] text-3xl text-crema transition-colors duration-200 hover:text-vino-soft"
                     >
                       {link.label}
                     </Link>
@@ -110,19 +110,12 @@ export function MobileMenu({
               </div>
             </nav>
 
-            <div className="mt-8 flex items-center justify-between border-t border-line-dark pt-5">
+            <div className="mt-8 border-t border-line-dark pt-5">
               <LanguageSwitcher
                 current={lang}
                 label={dict.a11y.langLabel}
                 tone="dark"
               />
-              <Link
-                href={`/${lang}#reservar`}
-                onClick={onClose}
-                className="eyebrow inline-flex min-h-[44px] items-center bg-terracota px-6 text-crema-soft transition-colors duration-200 hover:bg-terracota-soft"
-              >
-                {dict.nav.reservar}
-              </Link>
             </div>
       </div>
     </motion.div>

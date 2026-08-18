@@ -10,7 +10,7 @@ export function Footer({ lang, dict }: { lang: Lang; dict: Dict }) {
     { href: `/${lang}#cocina`, label: dict.nav.cocina },
     { href: `/${lang}#bodega`, label: dict.nav.bodega },
     { href: `/${lang}#espacio`, label: dict.nav.espacio },
-    { href: `/${lang}#reservar`, label: dict.nav.reservarLong },
+    { href: `/${lang}#contacto`, label: dict.nav.contacto },
   ];
 
   const legal = [
@@ -20,8 +20,7 @@ export function Footer({ lang, dict }: { lang: Lang; dict: Dict }) {
   ];
 
   return (
-    // pb clears the fixed mobile reserve bar so nothing is hidden behind it.
-    <footer className="on-dark bg-carbon pb-[calc(6rem+env(safe-area-inset-bottom))] pt-20 text-crema lg:pb-16">
+    <footer className="on-dark bg-carbon pb-16 pt-20 text-crema">
       <Container>
         <div className="grid gap-12 lg:grid-cols-12 lg:gap-10">
           <div className="lg:col-span-4">
@@ -48,7 +47,7 @@ export function Footer({ lang, dict }: { lang: Lang; dict: Dict }) {
                 <li key={item.href}>
                   <Link
                     href={item.href}
-                    className="inline-flex min-h-[44px] items-center text-crema/75 transition-colors duration-200 hover:text-terracota-soft"
+                    className="inline-flex min-h-[44px] items-center text-crema/75 transition-colors duration-200 hover:text-vino-soft"
                   >
                     {item.label}
                   </Link>
@@ -67,7 +66,7 @@ export function Footer({ lang, dict }: { lang: Lang; dict: Dict }) {
                 <li key={phone.href}>
                   <a
                     href={phone.href}
-                    className="tnum inline-flex min-h-[44px] items-center text-crema/75 transition-colors duration-200 hover:text-terracota-soft"
+                    className="tnum inline-flex min-h-[44px] items-center text-crema/75 transition-colors duration-200 hover:text-vino-soft"
                   >
                     {phone.display}
                   </a>
@@ -76,7 +75,7 @@ export function Footer({ lang, dict }: { lang: Lang; dict: Dict }) {
               <li>
                 <a
                   href={`mailto:${contact.email}`}
-                  className="wrap-anywhere inline-flex min-h-[44px] items-center text-crema/75 transition-colors duration-200 hover:text-terracota-soft"
+                  className="wrap-anywhere inline-flex min-h-[44px] items-center text-crema/75 transition-colors duration-200 hover:text-vino-soft"
                 >
                   {contact.email}
                 </a>
@@ -86,7 +85,7 @@ export function Footer({ lang, dict }: { lang: Lang; dict: Dict }) {
                   href={contact.facebook}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex min-h-[44px] items-center text-crema/75 transition-colors duration-200 hover:text-terracota-soft"
+                  className="inline-flex min-h-[44px] items-center text-crema/75 transition-colors duration-200 hover:text-vino-soft"
                 >
                   Facebook
                 </a>
@@ -101,7 +100,7 @@ export function Footer({ lang, dict }: { lang: Lang; dict: Dict }) {
                 <li key={item.href}>
                   <Link
                     href={item.href}
-                    className="inline-flex min-h-[44px] items-center text-crema/75 transition-colors duration-200 hover:text-terracota-soft"
+                    className="inline-flex min-h-[44px] items-center text-crema/75 transition-colors duration-200 hover:text-vino-soft"
                   >
                     {item.label}
                   </Link>

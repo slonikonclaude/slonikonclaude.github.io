@@ -20,7 +20,7 @@ export function Timeline({
 }) {
   return (
     <div>
-      <h3 id={titleId} className="eyebrow text-terracota">
+      <h3 id={titleId} className="eyebrow text-vino">
         {title}
       </h3>
 
@@ -37,7 +37,7 @@ export function Timeline({
           >
             <span
               aria-hidden="true"
-              className="absolute -left-[calc(1.75rem+3.5px)] top-2 block h-[7px] w-[7px] rounded-full bg-terracota sm:-left-[calc(2.25rem+3.5px)]"
+              className="absolute -left-[calc(1.75rem+3.5px)] top-2 block h-[7px] w-[7px] rounded-full bg-vino sm:-left-[calc(2.25rem+3.5px)]"
             />
             <h4 className="font-[family-name:var(--font-sans)] text-base font-medium text-ink">
               {entry.label}

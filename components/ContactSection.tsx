@@ -17,7 +17,7 @@ export function ContactSection({ dict }: { dict: Dict }) {
         <div className="grid gap-14 lg:grid-cols-12 lg:gap-16">
           <div className="lg:col-span-5">
             <Reveal>
-              <p className="eyebrow text-terracota">{contacto.eyebrow}</p>
+              <p className="eyebrow text-vino">{contacto.eyebrow}</p>
               <h2
                 id="contacto-title"
                 className="balance mt-5 text-(length:--text-display)"
@@ -50,7 +50,7 @@ export function ContactSection({ dict }: { dict: Dict }) {
                       <a
                         key={phone.href}
                         href={phone.href}
-                        className="tnum inline-flex min-h-[44px] items-center text-(length:--text-lead) text-ink transition-colors duration-200 hover:text-terracota"
+                        className="tnum inline-flex min-h-[44px] items-center text-(length:--text-lead) text-ink transition-colors duration-200 hover:text-vino"
                       >
                         {phone.display}
                       </a>
@@ -65,7 +65,7 @@ export function ContactSection({ dict }: { dict: Dict }) {
                   <dd className="mt-2">
                     <a
                       href={`mailto:${contact.email}`}
-                      className="wrap-anywhere inline-flex min-h-[44px] items-center text-(length:--text-lead) text-ink transition-colors duration-200 hover:text-terracota"
+                      className="wrap-anywhere inline-flex min-h-[44px] items-center text-(length:--text-lead) text-ink transition-colors duration-200 hover:text-vino"
                     >
                       {contact.email}
                     </a>
@@ -88,12 +88,18 @@ export function ContactSection({ dict }: { dict: Dict }) {
                 </div>
               </dl>
 
+              {/* Moved here when the reservation section was removed. It is the
+                  only schedule fact the source site actually states. */}
+              <p className="eyebrow mt-10 border-l-2 border-vino pl-4 text-ink-soft">
+                {dict.notices.vacation}
+              </p>
+
               <div className="mt-10 flex flex-wrap gap-3">
                 <a
                   href={mapsDirectionsHref}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="eyebrow inline-flex min-h-[52px] items-center bg-ink px-8 text-crema-soft transition-colors duration-200 hover:bg-terracota"
+                  className="eyebrow inline-flex min-h-[52px] items-center bg-ink px-8 text-crema-soft transition-colors duration-200 hover:bg-vino"
                 >
                   {contacto.directions}
                 </a>
@@ -116,7 +122,7 @@ export function ContactSection({ dict }: { dict: Dict }) {
                         href={link.href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="wrap-anywhere inline-flex min-h-[44px] items-center text-ink-soft underline underline-offset-4 transition-colors duration-200 hover:text-terracota"
+                        className="wrap-anywhere inline-flex min-h-[44px] items-center text-ink-soft underline underline-offset-4 transition-colors duration-200 hover:text-vino"
                       >
                         {link.label}
                       </a>

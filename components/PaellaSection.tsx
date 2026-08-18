@@ -18,7 +18,7 @@ export function PaellaSection({ dict }: { dict: Dict }) {
     <Section id="arroces" tone="carbon" labelledBy="paella-title">
       <Container>
         <Reveal className="max-w-4xl">
-          <p className="eyebrow text-terracota-soft">{paella.eyebrow}</p>
+          <p className="eyebrow text-vino-soft">{paella.eyebrow}</p>
           <h2
             id="paella-title"
             className="balance mt-6 text-(length:--text-display) text-crema"
@@ -42,7 +42,7 @@ export function PaellaSection({ dict }: { dict: Dict }) {
             className="w-[15rem] shrink-0 snap-start lg:w-auto"
           >
             <div className="flex h-full min-h-[11rem] flex-col justify-between border border-line-dark p-6 lg:border-0 lg:bg-carbon">
-              <span className="tnum eyebrow text-terracota-soft">
+              <span className="tnum eyebrow text-vino-soft">
                 {String(i + 1).padStart(2, "0")}
               </span>
               <h3 className="mt-8 font-[family-name:var(--font-display)] text-2xl leading-tight text-crema">

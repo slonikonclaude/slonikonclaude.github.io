@@ -28,7 +28,7 @@ export function WineSection({ dict }: { dict: Dict }) {
         <div className="grid gap-12 lg:grid-cols-12 lg:gap-16">
           <div className="lg:col-span-6">
             <Reveal>
-              <p className="eyebrow text-terracota-pale">{bodega.eyebrow}</p>
+              <p className="eyebrow text-vino-pale">{bodega.eyebrow}</p>
               <h2
                 id="bodega-title"
                 className="mt-5 text-(length:--text-display) text-crema"
@@ -53,7 +53,7 @@ export function WineSection({ dict }: { dict: Dict }) {
                 <p className="font-[family-name:var(--font-display)] text-(length:--text-title) italic leading-snug text-crema/90">
                   “{bodega.quote}”
                 </p>
-                <footer className="eyebrow mt-4 text-terracota-pale">
+                <footer className="eyebrow mt-4 text-vino-pale">
                   {bodega.quoteAuthor}
                 </footer>
               </blockquote>

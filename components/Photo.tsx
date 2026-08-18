@@ -45,7 +45,7 @@ export function Photo({
         aria-label={alt}
         className={`flex flex-col items-center justify-center gap-2 bg-crema-deep p-6 text-center ${className}`}
       >
-        <span className="eyebrow text-terracota">TODO — foto pendiente</span>
+        <span className="eyebrow text-vino">TODO — foto pendiente</span>
         <span className="max-w-[32ch] text-sm text-ink-soft">
           {todoNote ?? alt}
         </span>

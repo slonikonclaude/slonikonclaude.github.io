@@ -60,8 +60,8 @@ export function Hero({ lang, dict }: { lang: Lang; dict: Dict }) {
           style={{ animationDelay: "0.3s" }}
         >
           <Link
-            href={`/${lang}#reservar`}
-            className="eyebrow inline-flex min-h-[52px] items-center justify-center bg-crema px-9 text-ink transition-colors duration-200 hover:bg-terracota hover:text-crema-soft"
+            href={`/${lang}#carta`}
+            className="eyebrow inline-flex min-h-[52px] items-center justify-center bg-crema px-9 text-ink transition-colors duration-200 hover:bg-vino hover:text-crema-soft"
           >
             {dict.hero.ctaPrimary}
           </Link>

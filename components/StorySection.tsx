@@ -14,7 +14,7 @@ export function StorySection({ dict }: { dict: Dict }) {
           <div className="lg:col-span-4">
             <div className="lg:sticky lg:top-28">
               <Reveal>
-                <p className="eyebrow text-terracota">{historia.eyebrow}</p>
+                <p className="eyebrow text-vino">{historia.eyebrow}</p>
                 <p
                   aria-hidden="true"
                   className="mt-4 font-[family-name:var(--font-display)] text-[clamp(4rem,12vw,9rem)] leading-[0.85] text-ink/15"

@@ -72,7 +72,7 @@ export function Navbar({ lang, dict }: Props) {
                 href={link.href}
                 className={`inline-flex min-h-[44px] items-center text-sm transition-colors duration-200 ${
                   solid
-                    ? "text-ink-soft hover:text-terracota"
+                    ? "text-ink-soft hover:text-vino"
                     : "text-crema/80 hover:text-crema"
                 }`}
               >
@@ -88,17 +88,6 @@ export function Navbar({ lang, dict }: Props) {
               tone={solid ? "light" : "dark"}
               className="hidden sm:block"
             />
-
-            <Link
-              href={`/${lang}#reservar`}
-              className={`eyebrow hidden min-h-[44px] items-center px-6 transition-colors duration-200 lg:inline-flex ${
-                solid
-                  ? "bg-terracota text-crema-soft hover:bg-ink"
-                  : "bg-crema text-ink hover:bg-terracota hover:text-crema-soft"
-              }`}
-            >
-              {dict.nav.reservar}
-            </Link>
 
             <button
               ref={triggerRef}

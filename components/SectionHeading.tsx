@@ -36,7 +36,7 @@ export function SectionHeading({
         <p
           className={`eyebrow mb-5 flex items-center gap-3 ${
             align === "center" ? "justify-center" : ""
-          } ${dark ? "text-terracota-soft" : "text-terracota"}`}
+          } ${dark ? "text-vino-soft" : "text-vino"}`}
         >
           {index && <span className="tnum opacity-70">{index}</span>}
           {index && eyebrow && (

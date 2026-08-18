@@ -27,7 +27,7 @@ export function TerrazaSection({ dict, lang }: { dict: Dict; lang: Lang }) {
 
         <div className="mt-12 grid gap-10 lg:grid-cols-12 lg:gap-16">
           <Reveal className="lg:col-span-6">
-            <p className="eyebrow text-terracota">{terraza.eyebrow}</p>
+            <p className="eyebrow text-vino">{terraza.eyebrow}</p>
             <h2
               id="terraza-title"
               className="balance mt-5 text-(length:--text-display)"
@@ -41,8 +41,8 @@ export function TerrazaSection({ dict, lang }: { dict: Dict; lang: Lang }) {
               {terraza.body}
             </p>
             <Link
-              href={`/${lang}#reservar`}
-              className="eyebrow mt-8 inline-flex min-h-[52px] items-center bg-ink px-8 text-crema-soft transition-colors duration-200 hover:bg-terracota"
+              href={`/${lang}#contacto`}
+              className="eyebrow mt-8 inline-flex min-h-[52px] items-center bg-ink px-8 text-crema-soft transition-colors duration-200 hover:bg-vino"
             >
               {terraza.cta}
             </Link>
