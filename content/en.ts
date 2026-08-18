@@ -28,8 +28,6 @@ export const en: Dict = {
     bodega: "Wine cellar",
     espacio: "The place",
     contacto: "Contact",
-    reservar: "Book",
-    reservarLong: "Book a table",
     home: "Home",
   },
 
@@ -39,7 +37,7 @@ export const en: Dict = {
     titleB: "of Valencian tradition",
     subtitleA: "Rice, fire, wine and memory",
     subtitleB: "in the heart of the Valencian huerta.",
-    ctaPrimary: "Book a table",
+    ctaPrimary: "See the menu",
     ctaSecondary: "Discover El Famós",
     scroll: "Scroll",
   },
@@ -190,35 +188,7 @@ export const en: Dict = {
     eyebrow: "Terrace",
     title: "Eating outdoors",
     body: "The outdoor terrace, surrounded by the Valencian huerta, for lunches and dinners in the open air.",
-    cta: "Book a table",
-  },
-
-  reserva: {
-    eyebrow: "Reservations",
-    title: "Book a table",
-    lead: "Reservations are made by telephone or email. We will confirm your booking by email or phone.",
-    phoneTitle: "Booking telephones",
-    mobileTitle: "Mobile",
-    emailTitle: "Email",
-    formTitle: "Send us your message or make your reservation",
-    formHint: "Please remember to include your phone number.",
-    fields: {
-      name: "Name",
-      phone: "Phone",
-      email: "Email",
-      people: "Number of guests",
-      date: "Date",
-      message: "Message",
-    },
-    required: "required",
-    submit: "Send request",
-    submitNote:
-      "Your email client will open with the request written out, addressed to info@elfamos.com.",
-    dataClauseTitle: "Data protection",
-    errors: {
-      name: "Please enter your name.",
-      phone: "Please enter a contact phone number.",
-    },
+    cta: "Contact",
   },
 
   contacto: {

@@ -24,8 +24,6 @@ export const es = {
     bodega: "Bodega",
     espacio: "El espacio",
     contacto: "Contacto",
-    reservar: "Reservar",
-    reservarLong: "Reservar mesa",
     home: "Inicio",
   },
 
@@ -35,7 +33,7 @@ export const es = {
     titleB: "de tradición valenciana",
     subtitleA: "Arroces, fuego, vino y memoria",
     subtitleB: "en el corazón de la huerta valenciana.",
-    ctaPrimary: "Reservar mesa",
+    ctaPrimary: "Ver la carta",
     ctaSecondary: "Descubrir El Famós",
     scroll: "Bajar",
   },
@@ -191,35 +189,7 @@ export const es = {
     eyebrow: "Terraza",
     title: "Comer al aire libre",
     body: "La terraza exterior, rodeada por la huerta valenciana, para comidas y cenas al aire libre.",
-    cta: "Reservar mesa",
-  },
-
-  reserva: {
-    eyebrow: "Reservas",
-    title: "Reservar mesa",
-    lead: "Las reservas se hacen por teléfono o por correo electrónico. Le confirmaremos su reserva vía email o teléfono.",
-    phoneTitle: "Teléfonos para reservas",
-    mobileTitle: "Móvil",
-    emailTitle: "Correo electrónico",
-    formTitle: "Envíenos su mensaje o haga su reserva",
-    formHint: "No olvide incluir su nº de teléfono.",
-    fields: {
-      name: "Nombre",
-      phone: "Teléfono",
-      email: "Correo electrónico",
-      people: "Nº de personas",
-      date: "Fecha",
-      message: "Mensaje",
-    },
-    required: "obligatorio",
-    submit: "Enviar solicitud",
-    submitNote:
-      "Se abrirá su cliente de correo con la solicitud escrita, dirigida a info@elfamos.com.",
-    dataClauseTitle: "Protección de datos",
-    errors: {
-      name: "Indique su nombre.",
-      phone: "Indique un teléfono de contacto.",
-    },
+    cta: "Contacto",
   },
 
   contacto: {

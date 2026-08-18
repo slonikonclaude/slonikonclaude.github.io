@@ -411,6 +411,13 @@ export const cookies: LegalDoc = {
   ],
 };
 
-/** Data-protection clause shown beside the contact form on contacto.html. */
+/**
+ * Data-protection clause that sat beside the contact form on contacto.html.
+ *
+ * Currently UNUSED: the reservation form was removed, and this clause is
+ * explicitly about "los datos obtenidos de este formulario" — showing it with
+ * no form would be nonsense. Kept verbatim rather than deleted so the text is
+ * not lost, and so it can be restored unchanged if a form ever returns.
+ */
 export const formDataClause =
   "De acuerdo con lo establecido por la Ley Orgánica 15/1999, le informamos que los datos obtenidos de este formulario serán incorporados a un fichero automatizado bajo la responsabilidad de CASA EL FAMOS SL con la finalidad de atender sus consultas y remitirle información relacionada que pueda ser de su interés. Puede ejercer sus derechos de acceso, rectificación, cancelación y oposición mediante un escrito a nuestra dirección IGLESIA DE VERA 14 46022, VALENCIA. Mientras no nos comunique lo contrario, entenderemos que sus datos no han sido modificados, que usted se compromete a notificarnos cualquier variación y que tenemos su consentimiento para utilizarlos para las finalidades mencionadas. El envío de estos datos implica la aceptación de esta cláusula.";

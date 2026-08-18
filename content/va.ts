@@ -24,8 +24,6 @@ export const va: Dict = {
     bodega: "Celler",
     espacio: "L'espai",
     contacto: "Contacte",
-    reservar: "Reservar",
-    reservarLong: "Reservar taula",
     home: "Inici",
   },
 
@@ -35,7 +33,7 @@ export const va: Dict = {
     titleB: "de tradició valenciana",
     subtitleA: "Arrossos, foc, vi i memòria",
     subtitleB: "al cor de l'horta valenciana.",
-    ctaPrimary: "Reservar taula",
+    ctaPrimary: "Veure la carta",
     ctaSecondary: "Descobrir El Famós",
     scroll: "Baixar",
   },
@@ -186,35 +184,7 @@ export const va: Dict = {
     eyebrow: "Terrassa",
     title: "Menjar a l'aire lliure",
     body: "La terrassa exterior, envoltada per l'horta valenciana, per a menjars i sopars a l'aire lliure.",
-    cta: "Reservar taula",
-  },
-
-  reserva: {
-    eyebrow: "Reserves",
-    title: "Reservar taula",
-    lead: "Les reserves es fan per telèfon o per correu electrònic. Li confirmarem la reserva via email o telèfon.",
-    phoneTitle: "Telèfons per a reserves",
-    mobileTitle: "Mòbil",
-    emailTitle: "Correu electrònic",
-    formTitle: "Envie'ns el seu missatge o faça la seua reserva",
-    formHint: "No oblide incloure el seu nº de telèfon.",
-    fields: {
-      name: "Nom",
-      phone: "Telèfon",
-      email: "Correu electrònic",
-      people: "Nº de persones",
-      date: "Data",
-      message: "Missatge",
-    },
-    required: "obligatori",
-    submit: "Enviar sol·licitud",
-    submitNote:
-      "S'obrirà el seu client de correu amb la sol·licitud escrita, dirigida a info@elfamos.com.",
-    dataClauseTitle: "Protecció de dades",
-    errors: {
-      name: "Indique el seu nom.",
-      phone: "Indique un telèfon de contacte.",
-    },
+    cta: "Contacte",
   },
 
   contacto: {
