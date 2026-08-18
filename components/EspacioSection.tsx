@@ -58,7 +58,7 @@ export function EspacioSection({ dict }: { dict: Dict }) {
             <RevealItem key={item.title}>
               <span
                 aria-hidden="true"
-                className="mb-4 block h-px w-12 bg-terracota"
+                className="mb-4 block h-px w-12 bg-vino"
               />
               <h3 className="text-(length:--text-title)">{item.title}</h3>
               <p className="mt-3 text-ink-soft">{item.desc}</p>

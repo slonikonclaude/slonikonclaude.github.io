@@ -63,7 +63,7 @@ export function MenuTabs({ dict }: { dict: Dict }) {
               onClick={() => setActive(id)}
               className={`eyebrow inline-flex min-h-[48px] shrink-0 snap-start items-center border px-6 transition-colors duration-200 ${
                 selected
-                  ? "border-terracota bg-terracota text-crema-soft"
+                  ? "border-vino bg-vino text-crema-soft"
                   : "border-line bg-transparent text-ink-soft hover:border-ink hover:text-ink"
               }`}
             >

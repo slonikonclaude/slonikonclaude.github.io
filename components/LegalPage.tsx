@@ -21,7 +21,7 @@ export function LegalPage({
     <article className="pb-(--spacing-section) pt-32 sm:pt-40">
       <Container>
         <div className="max-w-3xl">
-          <p className="eyebrow text-terracota">{dict.footer.legalTitle}</p>
+          <p className="eyebrow text-vino">{dict.footer.legalTitle}</p>
           <h1 className="balance mt-5 text-(length:--text-display)">
             {doc.title}
           </h1>
@@ -55,7 +55,7 @@ export function LegalPage({
                     {block.items.map((item, j) => (
                       <li
                         key={j}
-                        className="list-disc leading-[1.8] text-ink-soft marker:text-terracota"
+                        className="list-disc leading-[1.8] text-ink-soft marker:text-vino"
                       >
                         {item}
                       </li>

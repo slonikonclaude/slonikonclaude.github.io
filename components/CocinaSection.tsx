@@ -51,7 +51,7 @@ export function CocinaSection({ dict }: { dict: Dict }) {
           <Reveal>
             <div className="flex flex-wrap items-end justify-between gap-6 border-t border-line pt-12">
               <div>
-                <p className="eyebrow text-terracota">{carta.eyebrow}</p>
+                <p className="eyebrow text-vino">{carta.eyebrow}</p>
                 <h3 className="mt-4 text-(length:--text-display)">
                   {carta.title}
                 </h3>
@@ -65,8 +65,8 @@ export function CocinaSection({ dict }: { dict: Dict }) {
           </div>
 
           <Reveal>
-            <aside className="mt-14 border-l-2 border-terracota bg-crema-deep p-6 lg:p-8">
-              <h4 className="eyebrow text-terracota">{notices.foodTitle}</h4>
+            <aside className="mt-14 border-l-2 border-vino bg-crema-deep p-6 lg:p-8">
+              <h4 className="eyebrow text-vino">{notices.foodTitle}</h4>
               <p className="measure mt-3 text-sm leading-[1.75] text-ink-soft">
                 {notices.food}
               </p>

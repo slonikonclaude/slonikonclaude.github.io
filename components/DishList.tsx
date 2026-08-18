@@ -13,7 +13,7 @@ export function DishList({ dishes }: { dishes: readonly string[] }) {
         >
           <span
             aria-hidden="true"
-            className="h-1 w-1 shrink-0 translate-y-[-0.2em] rounded-full bg-terracota"
+            className="h-1 w-1 shrink-0 translate-y-[-0.2em] rounded-full bg-vino"
           />
           <span className="min-w-0 text-(length:--text-lead) leading-snug text-ink">
             {dish}

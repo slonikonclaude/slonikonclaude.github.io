@@ -8,7 +8,7 @@ export function Manifesto({ dict }: { dict: Dict }) {
       <Container>
         <div className="grid gap-12 lg:grid-cols-12 lg:gap-16">
           <Reveal className="lg:col-span-5">
-            <p className="eyebrow text-terracota">{dict.manifesto.eyebrow}</p>
+            <p className="eyebrow text-vino">{dict.manifesto.eyebrow}</p>
             <h2
               id="manifiesto-title"
               className="balance mt-5 text-(length:--text-display)"
@@ -29,7 +29,7 @@ export function Manifesto({ dict }: { dict: Dict }) {
                 <RevealItem key={pillar}>
                   <span
                     aria-hidden="true"
-                    className="mb-3 block h-px w-10 bg-terracota"
+                    className="mb-3 block h-px w-10 bg-vino"
                   />
                   <span className="text-sm leading-snug text-ink">
                     {pillar}

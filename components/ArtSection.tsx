@@ -25,14 +25,14 @@ export function ArtSection({ dict }: { dict: Dict }) {
 
           <div className="lg:col-span-6 lg:col-start-7">
             <Reveal>
-              <p className="eyebrow text-terracota-soft">{arte.eyebrow}</p>
+              <p className="eyebrow text-vino-soft">{arte.eyebrow}</p>
               <h2
                 id="arte-title"
                 className="balance mt-5 text-(length:--text-display) text-crema"
               >
                 {arte.title}
               </h2>
-              <p className="mt-7 font-[family-name:var(--font-display)] text-(length:--text-title) italic text-terracota-soft">
+              <p className="mt-7 font-[family-name:var(--font-display)] text-(length:--text-title) italic text-vino-soft">
                 {arte.museum}
               </p>
             </Reveal>
@@ -69,7 +69,7 @@ export function ArtSection({ dict }: { dict: Dict }) {
                   href={externalLinks[0].href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="on-dark eyebrow mt-6 inline-flex min-h-[44px] items-center gap-2 text-terracota-soft transition-colors duration-200 hover:text-crema"
+                  className="on-dark eyebrow mt-6 inline-flex min-h-[44px] items-center gap-2 text-vino-soft transition-colors duration-200 hover:text-crema"
                 >
                   {arte.linkLabel}
                   <svg
