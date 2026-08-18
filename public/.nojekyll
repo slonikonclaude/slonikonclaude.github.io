@@ -1,0 +1,2 @@
+Presence of this file tells GitHub Pages to serve paths starting with an
+underscore. Without it Jekyll would swallow the whole /_next/ directory.
